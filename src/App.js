@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import HomePage from './home.component';
 
 class App extends Component {
   render() {
-    return <div className='App'>testing into github env</div>;
+    return <div className='App'>
+      <HomePage />
+    </div>;
   }
 }
 
