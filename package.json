@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^16.8.6",
+    "react-router-dom": "5.0.0",
     "react-scripts": "^5.0.0"
   },
   "scripts": {
@@ -24,5 +25,8 @@
   ],
   "devDependencies": {
     "sass": "^1.49.0"
+  },
+  "resolutions": {
+    "babel-jest": "24.7.1"
   }
 }
